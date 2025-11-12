@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      
+    }
+  ],
+  "produtos": [
+    {
+      "nome": "Drop Lock",
+      "categorias": [
+        "Preta"
+      ],
+      "descricao": "Luck",
+      "imagens": [
+        "DropDadoCostasPreta.png"
+      ],
+      "id": "889e",
+      "preco": 90.00
+
+     
+    },
+    {
+      "nome": " Mask Off Black",
+      "categorias": [
+        "Preta"
+      ],
+      "descricao": "Mask Of",
+      "imagens": [
+        "DropMaskFrente.png"
+      ],
+      "id": "889e",
+      "preco": 90.00
+     
+    },
+    {
+      "nome": "Drop Lock White",
+      "categorias": [
+        "Branca"
+      ],
+      "descricao": "Drop",
+      "imagens": [
+        "DropCaveira2.png"
+      ],
+      "id": "889e",
+      "preco": 90.00
+    },
+    {
+      "nome": "skull Drop White",
+      "categorias": [
+       "Branca"
+      ],
+      "descricao": "Skull Drop",
+      "imagens": [
+        "DropCaveira2.png"
+      ],
+      "id": "889e",
+      "preco": 90.00
+    }    
+  ]
+}
