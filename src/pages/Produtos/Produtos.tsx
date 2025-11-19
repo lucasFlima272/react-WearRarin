@@ -8,6 +8,8 @@ import skull_drop_white from "../../assets/img/DropCaveira2.png";
 import type { WearRarin } from "../../types/WearRarin";
 import { useEffect, useState } from 'react';
 import { getWearRarin } from '../../services/WearRarinService';
+import CardProduto from '../../components/CardProduto/CardProduto';
+import Carrosel from '../../components/Carrosel/Carrosel';
 
 export default function Produtos() {
 
@@ -31,9 +33,7 @@ export default function Produtos() {
         <>
             <main>
 
-                <section className="banner">
-                    <img src={banner_1} />
-                </section>
+                <Carrosel />
 
                 <section className="container">
 
@@ -45,11 +45,11 @@ export default function Produtos() {
 
                         {
                             WearRarin.map((b: WearRarin) => (
-                                <div className="card_produto">
-                                    <img src={`http://localhost:3000/static/${b.imagens[0]}`} alt="" />
-                                    <h2> {b.nome} </h2>
-                                  
-                                </div>
+                                <CardProduto
+                                imagens={b.imagens [0] ?? ""}
+                                nome={b.nome}
+                                preco={b.preco}
+                                />
                             ))
                         }
 
