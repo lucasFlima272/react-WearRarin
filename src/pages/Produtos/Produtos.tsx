@@ -31,6 +31,7 @@ export default function Produtos() {
 
     return (
         <>
+           <header/>
             <main>
 
                 <Carrosel />
