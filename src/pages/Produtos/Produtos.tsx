@@ -10,6 +10,7 @@ import { useEffect, useState } from 'react';
 import { getWearRarin } from '../../services/WearRarinService';
 import CardProduto from '../../components/CardProduto/CardProduto';
 import Carrosel from '../../components/Carrosel/Carrosel';
+import Header from '../../Header/Header';
 
 export default function Produtos() {
 
@@ -31,7 +32,7 @@ export default function Produtos() {
 
     return (
         <>
-           <header/>
+           <Header/>
             <main>
 
                 <Carrosel />
