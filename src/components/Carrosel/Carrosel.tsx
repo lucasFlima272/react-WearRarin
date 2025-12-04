@@ -1,6 +1,6 @@
-import banner_1 from '../../assets/img/123.png'
+import banner_1 from '../../assets/img/camisa_1920x1080.png'
 import banner_2 from '../../assets/img/banner.png'
-import banner_3 from '../../assets/img/camisa preta.png'
+// import banner_3 from '../../assets/img/camisa preta.png'
 export default function Carrosel() {
   
     return (
@@ -12,9 +12,9 @@ export default function Carrosel() {
         <div className="carousel-item">
           <img src={banner_2} className="d-block w-100" alt="..." />
         </div>
-        <div className="carousel-item">
+        {/* <div className="carousel-item">
           <img src={banner_3} className="d-block w-100" alt="..." />
-        </div>
+        </div> */}
       </div>
       <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
         data-bs-slide="prev">
