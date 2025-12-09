@@ -33,6 +33,8 @@ export default function Header() {
 
 
 
+
+
                         <Nav.Item className="box_busca" id="box_busca">
                             <svg className="icone_lupa" xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 512 512">

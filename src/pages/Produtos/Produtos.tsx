@@ -40,10 +40,7 @@ export default function Produtos() {
             console.error("Erro ao executar getWearRarin", error);
         }
 
-
-            console.log("Lista de camisas vinda da api");
-           
-        setWearRarin
+        
     }
 
     useEffect(() => {
@@ -59,7 +56,7 @@ export default function Produtos() {
                 <Carrosel />
 
                 <section className="container_produtos">
-                    <h1 className="acessivel"> Camisa OVERSIZED </h1>
+                    <h1 className="acessivel">Camisas</h1>
                     <div className="titulo">
                     <span>
                     
@@ -75,11 +72,11 @@ export default function Produtos() {
                     <section className="cards">
 
                         {
-                            WearRarin.map((b: WearRarin) => (
+                            WearRarin.map((w: WearRarin) => (
                                 <CardProduto
-                                    imagens={b.imagens[0] ?? ""}
-                                    nome={b.nome}
-                                    preco={b.preco}
+                                    imagens={w.imagens[0] ?? ""}
+                                    nome={w.nome}
+                                    preco={w.preco}
                                 />
                             ))
                         }
