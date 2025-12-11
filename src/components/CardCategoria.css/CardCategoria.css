@@ -1,0 +1,118 @@
+.card_categoriacalca {
+  text-decoration: none;
+  color: white;
+ 
+
+}
+
+.card_categoriacamisa{
+  text-decoration: none;
+ color: white;
+}
+
+.card_categoriabone{
+  text-decoration: none;
+  color: white;
+}
+
+
+.bone div{
+background-image: url("./assets/img/boné.png");
+  width: 400px;
+
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 5px 5px 5px #4F4F4F;
+  
+}
+
+.camisa p{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(0, 0, 0);
+  height: 20px;
+  border-radius: 20px ;
+  width: 80px;
+  background-color: rgb(223, 223, 223);
+  padding: 20px;
+  color: black;
+  box-shadow: 5px 5px 5px #4F4F4F;
+}
+
+
+
+
+
+
+.calca p{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  height: 20px;
+  border-radius: 20px ;
+  width: 80px;
+  background-color: rgb(223, 223, 223);
+  padding: 20px;
+ border: 2px solid rgb(0, 0, 0);
+ color: black;
+box-shadow: 5px 5px 5px #4F4F4F;
+}
+
+.bone p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(0, 0, 0);
+  height: 20px;
+  border-radius: 20px ;
+  width: 80px;
+  background-color: rgb(223, 223, 223);
+  padding: 20px;
+  color: black;
+ box-shadow: 5px 5px 5px #4F4F4F; 
+}
+
+
+.calca div{
+
+background-image: url("./assets/img/banner\ calca.png");
+  width: 400px;
+
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 5px 5px 5px #4F4F4F;
+}
+
+.camisa div{
+  background-image: url("./assets/img/camisa_preta.png");
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-decoration: none;
+  box-shadow: 5px 5px 5px #4F4F4F;
+}
+
+.modelos img{
+ width: 400px;
+ height: 400px;
+
+}
