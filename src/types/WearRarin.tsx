@@ -1,4 +1,4 @@
-export interface WearRarin  { 
+export interface Roupas  { 
     nome: string;
     descricao: string;
     categoria: string[];

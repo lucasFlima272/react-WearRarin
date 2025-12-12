@@ -1,7 +1,7 @@
 import axios from "axios";
-import type { WearRarin } from "../types/WearRarin";
+import type { Roupas } from "../types/WearRarin";
 
-export const getWearRarin = async (): Promise<WearRarin[]> => {
+export const getRoupas = async (): Promise<Roupas[]> => {
     try{
         const resposta = await axios.get("http://localhost:3000/produtos")
     return resposta.data
